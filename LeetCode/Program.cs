@@ -10,9 +10,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var input = "2147483646";
-            var result = StringtoInteger.atoi(input);
-            Console.WriteLine(result);
+            var input = 12312312;
+            Prob_9_PlaindromeNumber.IsPalindrome(input);
         }
     }
 
