@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using LeetCode.Medium;
 using LeetCode.Easy;
+using LeetCode.Hard;
 
 namespace LeetCode
 {
@@ -10,8 +11,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var input = 12312312;
-            Prob_9_PlaindromeNumber.IsPalindrome(input);
+            var result = Factorial.GetFactorial(5);
+            Console.WriteLine(result);
+
         }
     }
 
