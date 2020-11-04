@@ -11,8 +11,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var result = Factorial.GetFactorial(5);
-            Console.WriteLine(result);
+            var result = P50_MyPow.MyPow(2, -30);
+            Console.WriteLine("Result: " + result);
 
         }
     }
