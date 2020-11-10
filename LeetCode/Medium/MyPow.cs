@@ -1,9 +1,9 @@
 ﻿using System;
 namespace LeetCode.Medium
 {
-    public static class P50_MyPow
+    public static class MyPow
     {
-        public static double MyPow(double x, int n)
+        public static double Pow(double x, int n)
         {
             if (x == 1) return x;
             else if (n == 0) return 1;
@@ -25,7 +25,7 @@ namespace LeetCode.Medium
 
             bool isOdd = Math.Abs(n) % 2 == 1;
 
-            return isOdd ? add * x * MyPow(x * x, (n - 1) / 2) : add * MyPow(x * x, n / 2);
+            return isOdd ? add * x * Pow(x * x, (n - 1) / 2) : add * Pow(x * x, n / 2);
 
         }
     }

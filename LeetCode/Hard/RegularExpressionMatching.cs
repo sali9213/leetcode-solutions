@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode.Hard
 {
-    public static class Prob10RegularExpressionMatching
+    public static class RegularExpressionMatching
     {
         public static bool IsMatch(string s, string p)
         {

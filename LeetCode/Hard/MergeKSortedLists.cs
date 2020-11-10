@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode.Hard
 {
-    public static class _3_MergeKSortedLists
+    public static class MergeKSortedLists
     {
         public static ListNode MregeKLists(ListNode[] lists)
         {

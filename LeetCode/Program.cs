@@ -11,8 +11,6 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var result = P50_MyPow.MyPow(2, -30);
-            Console.WriteLine("Result: " + result);
 
         }
     }

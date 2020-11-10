@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode.Easy
 {
-    public static class Prob_9_PlaindromeNumber
+    public static class PlaindromeNumber
     {
         public static bool IsPalindrome(int x)
         {

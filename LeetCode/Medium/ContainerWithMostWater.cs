@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode.Medium
 {
-    public static class Prob1_ContainerWithMostWater
+    public static class ContainerWithMostWater
     {
         public static int MaxArea(int[] height)
         {
