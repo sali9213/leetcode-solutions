@@ -11,7 +11,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-
+            var isHappy = HappyNumber.IsHappy(19);
+            Console.WriteLine(isHappy);
         }
     }
 
