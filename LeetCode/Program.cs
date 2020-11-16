@@ -11,8 +11,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var isHappy = HappyNumber.IsHappy(19);
-            Console.WriteLine(isHappy);
+            UniquePaths uniquePaths = new UniquePaths();
+            var res = uniquePaths.UniquePathsCalc(3, 7);
+            Console.WriteLine(res);
+
         }
     }
 
